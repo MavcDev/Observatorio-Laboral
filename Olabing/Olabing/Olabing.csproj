@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A215DB1C-6238-4AE3-A921-3F3FDE925CC8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Olabing</RootNamespace>
+    <AssemblyName>Olabing</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Estilo\box.jpg" />
+    <Content Include="Estilo\bullet.gif" />
+    <Content Include="Estilo\button-bg.jpg" />
+    <Content Include="Estilo\content.jpg" />
+    <Content Include="Estilo\estilo_perfil.css" />
+    <Content Include="Estilo\footer.jpg" />
+    <Content Include="Estilo\header.jpg" />
+    <Content Include="Estilo\menu.jpg" />
+    <Content Include="Estilo\menu2.png" />
+    <Content Include="Estilo\sep.jpg" />
+    <Content Include="Imagenes\academico.png" />
+    <Content Include="Imagenes\add.png" />
+    <Content Include="Imagenes\chat.png" />
+    <Content Include="Imagenes\chats.png" />
+    <Content Include="Imagenes\edit.png" />
+    <Content Include="Imagenes\egresado.png" />
+    <Content Include="Imagenes\eliminar_btn.png" />
+    <Content Include="Imagenes\130430-144525.jpg" />
+    <Content Include="Imagenes\foros.png" />
+    <Content Include="Imagenes\investigacion.png" />
+    <Content Include="Imagenes\logosimbolo_transparente.gif" />
+    <Content Include="Imagenes\muro.png" />
+    <Content Include="Imagenes\oferta_academica.png" />
+    <Content Include="Imagenes\oferta_empleo.png" />
+    <Content Include="Imagenes\perfil.png" />
+    <Content Include="Imagenes\social.png" />
+    <Content Include="Paginas\chat_mensaje.aspx" />
+    <Content Include="Paginas\crear_foro.aspx" />
+    <Content Include="Paginas\crear_oferta.aspx" />
+    <Content Include="Paginas\editar_foro.aspx" />
+    <Content Include="Paginas\editar_oferta.aspx" />
+    <Content Include="Paginas\egresados.aspx" />
+    <Content Include="Paginas\encuesta0.aspx" />
+    <Content Include="Paginas\foros_academico.aspx" />
+    <Content Include="Paginas\foros_investigacion.aspx" />
+    <Content Include="Paginas\mensaje_eliminar.aspx" />
+    <Content Include="Paginas\mostrar_foro.aspx" />
+    <Content Include="Paginas\mostrar_oferta.aspx" />
+    <Content Include="Paginas\muro.aspx" />
+    <Content Include="Paginas\ofertas_academico.aspx" />
+    <Content Include="Paginas\ofertas_empleo.aspx" />
+    <Content Include="Paginas\perfil.aspx" />
+    <Content Include="Paginas\preguntas.aspx" />
+    <Content Include="Paginas\terminacion.aspx" />
+    <Content Include="Paginas\user_login.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Chat.cs" />
+    <Compile Include="Clases\Comentariof.cs" />
+    <Compile Include="Clases\ConexionMySql.cs" />
+    <Compile Include="Clases\Detalle_encuesta.cs" />
+    <Compile Include="Clases\Detalle_respuesta.cs" />
+    <Compile Include="Clases\Encuesta.cs" />
+    <Compile Include="Clases\Foro.cs" />
+    <Compile Include="Clases\ListasDesple.cs" />
+    <Compile Include="Clases\Login_user.cs" />
+    <Compile Include="Clases\Oferta.cs" />
+    <Compile Include="Clases\Pregunta.cs" />
+    <Compile Include="Clases\Respuesta.cs" />
+    <Compile Include="Clases\Tipo_pregunta.cs" />
+    <Compile Include="Clases\Topico.cs" />
+    <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\chat_mensaje.aspx.cs">
+      <DependentUpon>chat_mensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\chat_mensaje.aspx.designer.cs">
+      <DependentUpon>chat_mensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\crear_foro.aspx.cs">
+      <DependentUpon>crear_foro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\crear_foro.aspx.designer.cs">
+      <DependentUpon>crear_foro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\crear_oferta.aspx.cs">
+      <DependentUpon>crear_oferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\crear_oferta.aspx.designer.cs">
+      <DependentUpon>crear_oferta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\editar_foro.aspx.cs">
+      <DependentUpon>editar_foro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\editar_foro.aspx.designer.cs">
+      <DependentUpon>editar_foro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\editar_oferta.aspx.cs">
+      <DependentUpon>editar_oferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\editar_oferta.aspx.designer.cs">
+      <DependentUpon>editar_oferta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\egresados.aspx.cs">
+      <DependentUpon>egresados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\egresados.aspx.designer.cs">
+      <DependentUpon>egresados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\encuesta0.aspx.cs">
+      <DependentUpon>encuesta0.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\encuesta0.aspx.designer.cs">
+      <DependentUpon>encuesta0.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\foros_academico.aspx.cs">
+      <DependentUpon>foros_academico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\foros_academico.aspx.designer.cs">
+      <DependentUpon>foros_academico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\foros_investigacion.aspx.cs">
+      <DependentUpon>foros_investigacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\foros_investigacion.aspx.designer.cs">
+      <DependentUpon>foros_investigacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\mensaje_eliminar.aspx.cs">
+      <DependentUpon>mensaje_eliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\mensaje_eliminar.aspx.designer.cs">
+      <DependentUpon>mensaje_eliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\mostrar_foro.aspx.cs">
+      <DependentUpon>mostrar_foro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\mostrar_foro.aspx.designer.cs">
+      <DependentUpon>mostrar_foro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\mostrar_oferta.aspx.cs">
+      <DependentUpon>mostrar_oferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\mostrar_oferta.aspx.designer.cs">
+      <DependentUpon>mostrar_oferta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\muro.aspx.cs">
+      <DependentUpon>muro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\muro.aspx.designer.cs">
+      <DependentUpon>muro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ofertas_academico.aspx.cs">
+      <DependentUpon>ofertas_academico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ofertas_academico.aspx.designer.cs">
+      <DependentUpon>ofertas_academico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ofertas_empleo.aspx.cs">
+      <DependentUpon>ofertas_empleo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ofertas_empleo.aspx.designer.cs">
+      <DependentUpon>ofertas_empleo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\perfil.aspx.cs">
+      <DependentUpon>perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\perfil.aspx.designer.cs">
+      <DependentUpon>perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\preguntas.aspx.cs">
+      <DependentUpon>preguntas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\preguntas.aspx.designer.cs">
+      <DependentUpon>preguntas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\terminacion.aspx.cs">
+      <DependentUpon>terminacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\terminacion.aspx.designer.cs">
+      <DependentUpon>terminacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\user_login.aspx.cs">
+      <DependentUpon>user_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\user_login.aspx.designer.cs">
+      <DependentUpon>user_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1113</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

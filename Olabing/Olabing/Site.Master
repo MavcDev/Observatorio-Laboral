@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Olabing.SiteMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="/Estilo/estilo_perfil.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div id="wrap">
+            <div id="header">			
+		        <h1 id="logo-text"><a href="index.html">Olabing</a></h1>		
+		        <p id="slogan">Observatorio laboral de ingeniería de sistemas</p>
+                	<div id="header-links">
+			            <p>
+			            <a href="index.html">Perfil</a> | 
+			            <a href="index.html">Configuración</a> | 
+			            <a href="index.html">Cerrar</a>			
+			            </p>		
+		            </div>
+            </div>
+            <div  id="menu">
+                        <table>
+                            <tr>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton2" runat="server" 
+                                        ImageUrl="~/Imagenes/perfil.png" ToolTip="Perfil" 
+                                        onclick="ImageButton1_Click1" />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton3" runat="server" 
+                                        ImageUrl="~/Imagenes/muro.png" ToolTip="Notificaciones" 
+                                        PostBackUrl="~/Paginas/muro.aspx"  />
+                                </td>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton4" runat="server" 
+                                        ImageUrl="~/Imagenes/chat.png" ToolTip="Chat" 
+                                        PostBackUrl="~/Paginas/chat_mensaje.aspx" />
+                                </td>
+                                <td>
+                                    <asp:Menu ID="Menu1" runat="server" Height="25px" ItemWrap="True" 
+                                        Orientation="Horizontal">
+                                        <Items>
+                                            <asp:MenuItem ImageUrl="~/Imagenes/academico.png" Text="Nuevo elemento" 
+                                                Value="Nuevo elemento">
+                                                <asp:MenuItem ImageUrl="~/Imagenes/oferta_academica.png" Text="Nuevo elemento" 
+                                                    Value="Nuevo elemento"></asp:MenuItem>
+                                            </asp:MenuItem>
+                                        </Items>
+                                    </asp:Menu>
+                                </td>
+                            </tr>
+                        </table>
+	           </div>
+            <div>
+            
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <div id="footer">
+		        <p>
+		            &copy; 2013 <strong>Olabing</strong> |
+		            <a href="http://www.bluewebtemplates.com/" title="Website Templates">Universidad de la amzonia</a>
+   	            </p>
+	        </div>
+
+
+
+            </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+d:\documents\visual studio 2010\Projects\Olabing\Olabing\bin\Olabing.dll
+d:\documents\visual studio 2010\Projects\Olabing\Olabing\bin\Olabing.pdb
+d:\documents\visual studio 2010\Projects\Olabing\Olabing\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\Olabing\Olabing\obj\Debug\Olabing.dll
+d:\documents\visual studio 2010\Projects\Olabing\Olabing\obj\Debug\Olabing.pdb
+D:\Documents\Visual Studio 2010\Projects\trabajo_final\Olabing\Olabing\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\trabajo_final\Olabing\Olabing\obj\Debug\Olabing.dll
+D:\Documents\Visual Studio 2010\Projects\trabajo_final\Olabing\Olabing\obj\Debug\Olabing.pdb
+D:\Documents\Visual Studio 2010\Projects\trabajo_final\Olabing\Olabing\bin\Olabing.dll
+D:\Documents\Visual Studio 2010\Projects\trabajo_final\Olabing\Olabing\bin\Olabing.pdb
+C:\Users\Mavc\Documents\Visual Studio 2010\Projects\Olabing\Olabing\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mavc\Documents\Visual Studio 2010\Projects\Olabing\Olabing\obj\Debug\Olabing.dll
+C:\Users\Mavc\Documents\Visual Studio 2010\Projects\Olabing\Olabing\obj\Debug\Olabing.pdb
+C:\Users\Mavc\Documents\Visual Studio 2010\Projects\Olabing\Olabing\bin\Olabing.dll
+C:\Users\Mavc\Documents\Visual Studio 2010\Projects\Olabing\Olabing\bin\Olabing.pdb
+D:\Manuel\archivos de programacion\programas\8 sw3\Olabing\Olabing\bin\Olabing.dll
+D:\Manuel\archivos de programacion\programas\8 sw3\Olabing\Olabing\bin\Olabing.pdb
+D:\Manuel\archivos de programacion\programas\8 sw3\Olabing\Olabing\obj\Debug\Olabing.dll
+D:\Manuel\archivos de programacion\programas\8 sw3\Olabing\Olabing\obj\Debug\Olabing.pdb
+D:\Manuel\archivos de programacion\programas\8 sw3\Olabing\Olabing\obj\Debug\Olabing.csprojResolveAssemblyReference.cache

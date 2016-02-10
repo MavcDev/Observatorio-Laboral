@@ -1,0 +1,261 @@
+﻿body {
+	background: #caced1;
+	font: 70%/1.5em Verdana, Tahoma, arial, sans-serif;
+	color: #777;
+	text-align: center;
+	margin: 15px 0;
+}
+
+#wrap {
+	width: 790px;
+	background: #CCC url(content.jpg) repeat-y center top;
+	margin: 0 auto;
+	text-align: left;	
+}
+
+#content-wrap {
+	clear: both;
+	width: 790px;	
+	margin: 5px auto;
+	padding: 0;
+    height: 129px;
+}
+
+#header {
+	position: relative;
+	height: 131px;
+	background: #caced1 url(header.jpg) no-repeat center top;
+	padding: 0;	
+	color: #fff;	
+}
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bolder 55px 'Trebuchet MS', Arial, Sans-serif;
+	letter-spacing: -3px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	background: transparent;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 18px; left: 35px;	
+}
+#header p#slogan {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+	text-transform: none;
+	color: #FFF;
+	top: 80px; left: 50px;		
+}
+
+#header #header-links {
+	position: absolute;
+	color: #C6DDEE;
+	font: bold 14px"Trebuchet MS", Arial, Tahoma, Sans-serif;
+	top: 20px; right: 20px;	
+}
+#header #header-links a {	
+	color: #fff;
+	text-decoration: none;	
+}
+#header #header-links a:hover {
+	color: #D4FF55;	
+}
+
+
+input {
+	/*padding:3px;*/
+	border: 1px solid #E5F0FB; 
+	font: normal 1em Verdana, sans-serif;
+	color:#777;	
+}
+
+input.button { 
+	font: bold 12px Arial, Sans-serif; 
+	height: 28px;
+	margin: 0;
+	padding: 2px 3px; 
+	color: #fff;
+	background: #306bc1 url(button-bg.jpg) repeat-x 0 0; 
+	border: 1px solid #306bc1;
+}
+
+/* search form */
+
+
+#menu {
+	clear: both;	
+	margin: 0 auto; padding: 0;
+	background: #81C524 url(menu.jpg) no-repeat;	
+	font: bold 16px/40px "trebuchet MS", Arial, Tahoma, Sans-serif;
+	height: 40px;
+	vertical-align:top;
+	width: 790px;	
+}
+#menu2
+ {
+	clear: both;	
+	margin: 0 auto; padding: 0;
+	background: #81C524 url(menu.jpg) no-repeat;	
+	height: 40px;
+	width: 790px;	
+}
+
+#columna1
+{
+    float:left;
+    width:395px;
+    padding-bottom:50px;
+}
+#columna2
+{
+    border-right:1px solid #aaa;
+    padding-bottom:50px;
+}
+
+#columna11
+{
+    float:left;
+    width:330px;
+    padding-left:10px;
+    padding-bottom:50px;
+}
+#columna22
+{
+    margin-left:340px;
+    border-left:1px solid #aaa;
+    padding-bottom:50px;
+}
+
+#columnachat1
+{
+    float:left;
+    width:250px;
+    padding-top:20px;
+    padding-left:10px;
+    padding-bottom:50px;
+    height: 290px;
+}
+#columnachat2
+{
+    padding-left:70px;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+#imagen_perfil
+{
+    float:left;
+    padding:10px;
+    height:130px;
+    width:150px;
+}
+
+#footer {
+	color: #C6DDEE;
+	background: #caced1 url(footer.jpg) no-repeat center top;
+	clear: both;
+	width: 790px;
+	height: 57px;
+	text-align: center;	
+	font-size: 90%;	
+}
+#footer p { 
+	padding: 10px 0;
+	margin: 0;
+}
+#footer a  
+{   
+	color: #fff;
+	text-decoration: none; 
+}
+
+/* post footer */
+.post-footer {
+	background: #F4F8FD;
+	padding: 5px; margin: 20px 25px 0 25px;
+	border: 1px solid #E5F0FB; 
+	font-size: 95%;	
+}
+.post-footer .date {	padding-left: 0px; margin: 0 5px; }
+.post-footer .comments { padding-left: 0px; margin: 0 5px; }
+.post-footer .readmore { padding-left: 0px; margin: 0 5px; }
+
+.post-by { font-size: .95em;	margin-top: 0;	}
+
+.table {
+	border-collapse: collapse;
+	margin: 10px 15px;	
+}
+.th strong {
+	color: #fff;
+}
+.th {
+	background: #306bc1 url(button-bg.jpg) repeat-x 0 0; 
+	height: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #306bc1;
+	border-bottom-width: 2px;
+}
+.tr {
+	height: 32px;
+	background: #fff;	
+}
+.td 
+{
+    text-align:center;
+	border: 1px solid #E5F0FB; 
+}
+
+
+h1, h2, h3 { font-family: 'Trebuchet MS', Tahoma, Sans-serif;  }
+h1 {
+	font-size: 180%;	
+	font-weight: normal;	
+	color: #555;
+}
+h2 {
+	font-size: 160%;
+	color: #88ac0b;
+	font-weight: normal;
+}
+h3 {
+	font-size: 135%;	 
+	color: #666666;
+}
+
+#pad
+{
+    padding-bottom:70px;
+}
+
+#msg
+{
+    background: #CCC url(content.jpg) repeat-y center top;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+#menui
+{
+    float:left;
+    width:300px;
+}
+
+#menui2
+{
+    vertical-align:top;
+}
+
+
+ul, ol {
+	margin: 5px 15px;
+	padding: 0 25px;
+}
+
+.menuitem  { height:36px; width:81px; background-image:url(menu.jpg);}
